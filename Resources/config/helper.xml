@@ -11,6 +11,7 @@
     </parameters>
 
     <services>
+        <defaults public="true" />
         <service id="liip_monitor.helper.raw_console_reporter" class="%liip_monitor.helper.raw_console_reporter.class%" />
         <service id="liip_monitor.helper.console_reporter" class="%liip_monitor.helper.console_reporter.class%" />
 

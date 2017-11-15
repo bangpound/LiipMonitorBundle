@@ -9,6 +9,7 @@
     </parameters>
 
     <services>
+        <defaults public="true" />
         <service id="liip_monitor.runner" class="%liip_monitor.runner.class%" />
     </services>
 </container>
